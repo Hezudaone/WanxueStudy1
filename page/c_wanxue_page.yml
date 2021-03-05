@@ -1,0 +1,286 @@
+# 进入登录框
+c_login_run:
+  - xpath
+  - //*[@id="categorylistLogout"]/div[1]/div/ul/li[3]/a
+
+# 用户名框
+c_username:
+  - id
+  - username
+
+# 密码框
+c_password:
+  - id
+  - slsLoginPwd
+
+# 登录按钮
+c_loginBtn:
+  - xpath
+  - //*[@id="loginfrom"]/button
+
+# 用户名断言
+c_arr1:
+  - xpath
+  - //*[@id="person"]/a
+
+# 选择课程
+c_choice_class:
+  - xpath
+  - /html/body/div[8]/div[3]/div[2]/div[4]/div[4]/div[5]/dl/dd/a
+
+# 直播课堂 入口
+c_zhibo_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[3]/a[2]
+# 直播课菜单第二个
+c_zhibo_list_two:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[2]
+# 直播课,第一个
+c_zhibo_one:
+  - xpath
+  - //*[@id="ll"]/dl[1]/dd[1]/a
+
+# 观看回放
+c_zhibo_huifang:
+  - link text
+  - 观看回放
+
+# 确定进入
+c_zhibo_queding:
+  - class name
+  - ok
+
+# 播放按钮
+c_zhibo_pay_but:
+  - xpath
+  - //*[@id="app"]/div/div[2]/div[1]/div[3]/div[1]/i
+
+# 校本课程入口
+c_jiaoben_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[2]/a[2]
+
+# 高级协同团队构建项目
+c_jb_gaojixietong:
+  - xpath
+  - //*[@id="jb_ul"]/li[1]/h2
+# 返回
+c_jb_fanhui:
+  - xpath
+  - /html/body/div[2]/div/a
+
+# 项目学习
+c_jb_xuexi:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[2]/a
+# 特训任务
+c_jb_texun:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[3]/a
+# 指导与交流
+c_jb_zhidao:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[4]/a
+# 测评
+c_jb_ceping:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[5]/a
+# 通知公告
+c_jb_gonggao:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[6]/a
+
+# 创新创业
+c_jb_chuangxin:
+  - xpath
+  - //*[@id="c_type"]/li[2]
+# 校本课程
+c_jb_jiaoben:
+  - xpath
+  - //*[@id="c_type"]/li[3]
+# 超级智能课程
+c_jb_zhineng:
+  - xpath
+  - //*[@id="c_type"]/li[4]
+
+# ------------------------------------职业规划
+# 职业规划入口
+c_zygh_in:
+  - xpath
+  - /html/body/div[2]/div/div[2]/ul/li[4]/a[2]
+
+c_zygh_arr:
+  - xpath
+  - //*[@id="banner_img"]/li/div[1]/div/div[2]/input
+# ------------------------------------科研转化
+# 科研转化入口
+c_kyzh_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[5]/a[2]
+# 科研成果A
+c_kyzh_chengguo:
+  - xpath
+  - /html/body/div[2]/div/div[2]/ul/li[1]/a/img
+
+# 资讯交流
+c_kyzh_jiaoliu:
+  - xpath
+  - /html/body/div[2]/div/div/div[1]/ul/li[2]/a
+# 返回
+c_kyzh_fanhui:
+  - xpath
+  - /html/body/div[2]/div/div/div[1]/p/a
+
+# ------------------------------------求职招聘
+# 求职招聘 入口
+c_qzzp_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[6]/a[2]
+c_qzzp_qiye:
+  - xpath
+  - /html/body/div[4]/div/div[3]/ul/li[1]
+c_qzzp_jingzong:
+  - xpath
+  - /html/body/div[4]/div/div[1]/ul/li[2]/a
+c_qzzp_jingzong_in:
+  - xpath
+  - /html/body/div[4]/div/div[3]/div[1]
+
+# -----------------------------------创业实训
+# 创业实训入口
+c_cysx_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[7]/a[2]
+# 实训
+c_cusx_shixun:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li/a
+# 返回
+c_cusx_fanhui:
+  - xpath
+  - /html/body/div[2]/div/a
+# -----------------------------------创业活动
+# 创业活动入口
+c_cyhd_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[8]/a[2]
+# 第一个活动
+c_cyhd_one:
+  - xpath
+  - //*[@id="chuangyehd"]/ul[1]/li[1]/a/img
+
+# 报名按钮
+c_cyhd_baoming_but:
+  - id
+  - d_btn
+
+# ---------------------------------创客矩阵
+# 创客矩阵入口
+c_ckjz_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[9]/a[2]
+# 进入详情
+c_ckjz_xq:
+  - xpath
+  - /html/body/div[2]/div/div[4]/ul[1]/li[1]/a/img
+# 断言
+c_ckjz_arr:
+  - xpath
+  - /html/body/div[4]/div/div[1]/div[2]/a/img
+# ------------------------------------创业项目
+# 创业项目入口
+c_cyxm_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[10]/a[2]
+
+# 进入项目详情
+c_cyxm_xiangqing:
+  - xpath
+  - /html/body/div[2]/div/div[3]/ul/li/a/img
+
+# 项目得分
+c_cyxm_defen:
+  - xpath
+  - /html/body/div[2]/div/div/div[1]/ul/li[2]/a
+
+# ------------------------------------创业知识
+# 创业知识入口
+c_cyzs_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[12]/a[2]
+# 战略规划
+c_cyzs_zlgh:
+  - xpath
+  - /html/body/div[4]/div[2]/div/ul/li[2]
+
+# 搜索框
+c_cyzs_sou:
+  - xpath
+  - //*[@id="cyzs"]
+# 查询按钮
+c_cyzs_cha_but:
+  - xpath
+  - /html/body/div[4]/div[2]/div/div[1]/span/span/a
+# 第一条
+c_cyzs_one:
+  - xpath
+  - //*[@id="t2"]/tbody/tr[1]/td[2]/a
+c_cyzs_arr:
+  - xpath
+  - /html/body/div[4]/div[2]/div[1]/p/span
+
+# ------------------------------------创业书库
+# 创业书库入口
+c_cysk_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[13]/a[2]
+# 第五项修炼
+c_cysk_one:
+  - xpath
+  - //*[@id="cy"]/div[1]/dl[1]/dd[1]
+# 下一页
+c_cysk_next:
+  - xpath
+  - //*[@id="next_page_button"]
+
+# ------------------------------------创业大数据
+# 创业大数据入口
+c_cydsj_in:
+  - link text
+  - 创业大数据
+c_cydsj_diyu:
+  - xpath
+  - /html/body/div[2]/div/div[2]/div[1]/ul/li[2]/a
+c_cydsj_hangye:
+  - xpath
+  - /html/body/div[2]/div/div[2]/div[2]/ul/li[3]/a
+c_cydsj_zhibiao:
+  - xpath
+  - /html/body/div[2]/div/div[2]/div[3]/ul/li[3]/a
+
+# -----------------------------------创业资讯
+# 创业资讯入口
+c_cyzx_in:
+  - xpath
+  - /html/body/div[8]/div[2]/div/div[2]/ul/li[11]/a[2]
+
+# 创业新闻
+c_cyzx_xinwen:
+  - xpath
+  - /html/body/div[2]/div[3]/div[2]/div/ul/li[2]
+# 搜索输入框
+c_cyzx_shuru:
+  - xpath
+  - //*[@id="cyzx"]
+# 查询按钮
+c_cyzx_cha_but:
+  - xpath
+  - /html/body/div[2]/div[3]/div[2]/div/div[1]/span/span/a
+# 第一条
+c_cyzx_one:
+  - xpath
+  - //*[@id="t1"]/tbody/tr[1]/td[2]/a
+c_cyzx_arr:
+  - xpath
+  - /html/body/div[4]/div[2]/div[1]/p/span

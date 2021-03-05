@@ -1,0 +1,187 @@
+# 进入登录框
+mooc_login_run:
+  - xpath
+  - //*[@id="categorylistLogout"]/div[1]/div/ul/li[3]/a
+
+# 用户名框
+mooc_username:
+  - id
+  - username
+
+# 密码框
+mooc_password:
+  - id
+  - slsLoginPwd
+
+# 登录按钮
+mooc_loginBtn:
+  - xpath
+  - //*[@id="loginfrom"]/div[3]/input[1]
+
+mooc_arr1:
+  - xpath
+  - //*[@id="person"]/a
+
+# ------------------------------------- 学习中心
+# 选择课程  创业协同团队组建
+mooc_xxzx_in:
+  - xpath
+  - /html/body/div[7]/div[3]/div[3]/div/div[2]/div[2]/dl/dd/a
+# 第一个课程
+mooc_xxzx_one:
+  - xpath
+  - //*[@id="contentX"]/div[2]/div/ul[1]/li/a/span
+# 播放按钮
+mooc_xxzx_pay:
+  - id
+  - replaybtn
+# 返回上一页
+mooc_xxzx_one_fanhui:
+  - xpath
+  - /html/body/div[2]/div/div[1]/a[2]
+
+# 项目学习监控
+mooc_xxzx_jiankong:
+  - xpath
+  - //*[@id="contentX"]/div[1]/ul/li[2]/a
+# 项目学习监控断言
+mooc_xxzx_jkarr:
+  - xpath
+  - //*[@id="kc_monitor"]/div/table/tbody/tr[1]/td[2]
+
+# 指导交流
+mooc_xxzx_zdjl:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[2]/a
+# 输入框
+mooc_xxzx_input:
+  - id
+  - discusstitle
+mooc_xxzx_fabu:
+  - xpath
+  - //*[@id="var_content"]/div[2]/div[1]/div[2]/input
+mooc_xxzx_one_pl:
+  - xpath
+  - //*[@id="ques-list"]/div[1]/a/div[2]/h3
+mooc_xxzx_del:
+  - class name
+  - quesDel
+mooc_xxzx_queding:
+  - class name
+  - Button4
+# 测评
+mooc_xxzx_cp:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[3]/a
+# 通知公告
+mooc_xxzx_tongzhi:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[4]/a
+# 返回首页
+mooc_xxzx_fanhui:
+  - xpath
+  - /html/body/div[2]/div/a[1]
+# ------------------------------------- 直播课堂
+# 直播课堂入口
+mooc_live_in:
+  - xpath
+  - /html/body/div[7]/div[2]/div/div[2]/ul/li[2]/a[2]
+
+#直播课第一课
+mooc_live_one:
+  - xpath
+  - //*[@id="ll"]/dl[1]/dd[1]/a
+#观看回放
+mooc_live_huifang:
+  - xpath
+  - //*[@id="lessonState"]/tr/td[4]/a
+
+# 确定
+mooc_live_queding:
+  - class name
+  - ok
+# 播放按钮
+mooc_live_pay:
+  - xpath
+  - //*[@id="app"]/div/div[2]/div[1]/div[3]/div[1]/i
+# ------------------------------------- 职业测评
+# 职业测评入口
+mooc_ceping_in:
+  - xpath
+  - /html/body/div[7]/div[2]/div/div[2]/ul/li[3]/a[2]
+mooc_ceping_arr:
+  - xpath
+  - /html/body/div[1]/div/div/h3/a
+# ------------------------------------- 创业资讯
+# 创业资讯入口
+mooc_cyzx_in:
+  - xpath
+  - /html/body/div[7]/div[2]/div/div[2]/ul/li[4]/a[2]
+# 创业新闻
+mooc_cyzx_xinwen:
+  - xpath
+  - /html/body/div[2]/div[3]/div[2]/div/ul/li[2]
+# 输入框
+mooc_cyzx_sou:
+  - id
+  - cyzx
+# 查询按钮
+mooc_cyzx_cha:
+  - xpath
+  - /html/body/div[2]/div[3]/div[2]/div/div[1]/div[2]/span/span/a
+# 第一条新闻
+mooc_cyzx_one:
+  - xpath
+  - //*[@id="t1"]/tbody/tr[1]/td[2]/a
+# 新闻断言   文章正文
+mooc_cyzx_arr:
+  - xpath
+  - /html/body/div[4]/div[2]/div[1]/p/span
+# ------------------------------------- 企业通识
+# 企业通识入口
+mooc_qyts_in:
+  - xpath
+  - /html/body/div[7]/div[2]/div/div[2]/ul/li[5]/a[2]
+
+# 商业模式
+mooc_qyts_shangye:
+  - xpath
+  - /html/body/div[4]/div[2]/div/ul/li[3]
+
+# 输入框
+mooc_qyts_sou:
+  - id
+  - cyzs
+# 查询按钮
+mooc_qyts_cha:
+  - xpath
+  - /html/body/div[4]/div[2]/div/div[1]/div[2]/span/span/a
+# 第一条
+mooc_qyts_one:
+  - xpath
+  - //*[@id="t3"]/tbody/tr/td[2]/a
+# 断言
+mooc_qyts_arr:
+  - xpath
+  - /html/body/div[4]/div[2]/div[1]/p/span
+# ------------------------------------- 精准投职
+# 精准投职入口
+mooc_jztz_in:
+  - xpath
+  - /html/body/div[7]/div[2]/div/div[2]/ul/li[6]/a[2]
+mooc_jztz_diqu:
+  - xpath
+  - /html/body/div[5]/ul/li/div[2]/div[1]/ul/li[1]/p
+mooc_jztz_fenlei:
+  - xpath
+  - /html/body/div[5]/ul/li/div[2]/div[2]/ul/li[1]/p
+mooc_jztz_xuqiu:
+  - xpath
+  - /html/body/div[5]/ul/li/div[2]/div[3]/ul/li[1]/p
+
+mooc_jztz_one:
+  - xpath
+  - /html/body/div[5]/ul/li/div[4]/div[1]/a[1]/div[2]/div/p
+mooc_jztz_arr:
+  - xpath
+  - /html/body/div[3]/div/div[2]/div[1]/p[1]

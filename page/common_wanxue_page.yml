@@ -1,0 +1,436 @@
+# 进入智能课程按钮 ---------------------------------智能课
+go_into:
+  - xpath
+  - /html/body/div[4]/div[3]/div[1]/a
+
+# 开始学习按钮
+go_to_study_but:
+  - xpath
+  - //*[@id="con1"]/div[4]/div/a
+
+# 智能课程body体
+coures_body:
+  - tag name
+  - body
+
+# 课程中下一步按钮
+coures_next_but:
+  - xpath
+  - //*[@id="nextName"]/span[1]
+
+# 习题组提交按钮
+tijiao_but:
+  - xpath
+  - //*[@id="submietStemDisable"]
+
+# 返回学习导图按钮
+fanhui_but:
+  - link text
+  - 返回学习导图
+
+# 教材下一步按钮
+next_page_button:
+  - xpath
+  - //*[@id="next_page_button"]
+
+# 视频开始播放按钮
+pay_kecheng:
+  - xpath
+  - //*[@id="replaybtn"]
+
+# 解析标识
+jiexi_flag:
+  - xpath
+  - /html/body/div[5]/div/div[1]/div[2]/ul/li[3]
+
+jiexi_tishi_x:
+  - xpath
+  - /html/body/div[3]/img[2]
+
+# 确定进入下一个任务包按钮
+okgo_but:
+  - link text
+  - 立即开始
+
+# 人工指导
+rengongzhidao:
+  - xpath
+  - /html/body/div[6]/div/a[1]
+
+# 智能课结束后返回首页按钮
+zhinengfanhui:
+  - xpath
+  - /html/body/div[4]/div[2]/a[1]/img
+
+# 进度管控
+jinduguank:
+  - link text
+  - 进度管控
+# 进度管控断言
+jinduguank_arr:
+  - xpath
+  - /html/body/div[3]/div/div[1]/h1
+
+# 学习报告
+xuexibaogao:
+  - link text
+  - 学习报告
+# 学习报告断言
+xuexibaogao_arr:
+  - xpath
+  - /html/body/div[5]/div/div[1]/h1
+
+# 动态学习规划
+dongtaixuexiguihua:
+  - link text
+  - 动态学习规划
+# 动态学习规划断言
+dongtaixuexiguihua_arr:
+  - xpath
+  - /html/body/div[3]/div/div[1]/h1
+
+# 错题通练
+cuotitonglian:
+  - link text
+  - 错题通练
+# 错题通练断言
+cuotitonglian_arr:
+  - xpath
+  - /html/body/div[3]/div/div[1]/h1
+
+# 题目收藏夹
+timushoucangjia:
+  - link text
+  - 题目收藏夹
+# 题目收藏夹断言
+timushoucangjia_arr:
+  - xpath
+  - /html/body/div[3]/div/div[1]/h1
+# -------------------------------------------外挂课-----------
+# 外挂课vip 精细课程-知识精讲课程
+waigua_jingxi:
+  - xpath
+  - /html/body/div[4]/div[3]/div[2]/div[1]/div/ul/li[1]/a/p/span[2]
+
+# 外挂课 - 常规课程
+waigua_changgui:
+  - xpath
+  - /html/body/div[4]/div[3]/div[2]/div[2]/div/ul/li[1]/a/p/span[2]
+
+# 外挂课 - 特设课程
+waigua_teshe:
+  - xpath
+  - /html/body/div[4]/div[3]/div[2]/div[3]/div/ul/li[1]/a/p/span[2]
+
+# 一组外挂课学习按钮
+waigua_study_but:
+  - id
+  - study
+# 外挂课,播放按钮
+waigua_pay_but:
+  - xpath
+  - //*[@id="replaybtn"]
+
+# 返回首页按钮
+fanhuishouye:
+  - xpath
+  - /html/body/div[4]/div[2]/a/img
+
+# 进入直播课堂按钮
+go_live_class_but:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[7]/a[2]
+
+# 我的直播课按钮
+my_live_class_but:
+  - xpath
+  - /html/body/div[4]/div[3]/div[1]/a/img
+
+# 直播课断言
+my_live_class_arr:
+  - id
+  - coursePage-study
+
+# 公开课,回放按钮
+live_huifang_but:
+  - xpath
+  - //*[@id="publicUl2"]/li[5]/dl/dd[3]/a
+
+# 公开课列表 英语
+gongkaike_yingyu:
+  - xpath
+  - //*[@id="101"]
+# 公开课列表 数学
+gongkaike_shuxue:
+  - xpath
+  - //*[@id="102"]
+# 公开课列表 政治
+gongkaike_zhengzhi:
+  - xpath
+  - //*[@id="103"]
+# 公开课列表 经管
+gongkaike_jingguan:
+  - xpath
+  - //*[@id="104"]
+# 公开课列表 法硕
+gongkaike_fashuo:
+  - xpath
+  - //*[@id="105"]
+# 公开课列表 医学
+gongkaike_yixue:
+  - xpath
+  - //*[@id="106"]
+# 公开课列表 翻硕
+gongkaike_fanshuo:
+  - xpath
+  - //*[@id="107"]
+
+# 公开课播放按钮
+gongkaike_pay_but:
+  - xpath
+  - //*[@id="app"]/div/div[2]/div[1]/div[3]/div[1]/i
+
+# 进入公开课确定按钮
+gongkaike_ok:
+  - class name
+  - ok
+
+# 直播课列表
+#英语
+live_yingyu:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[1]
+
+# 数学
+live_shuxue:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[2]
+# 政治
+live_zhengzhi:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[3]
+# 经管
+live_jingguan:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[4]
+# 法硕
+live_fashuo:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[5]
+# 专业课
+live_zhuanyeke:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[6]
+# 特训营
+live_texunying:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[7]
+# 考研复式
+live_fushi:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[9]
+# 教师资格
+live_jiaoshi:
+  - xpath
+  - /html/body/div[4]/div[3]/div[3]/h2/p/a[10]
+
+# 视频课列表
+# 免费试听
+shipin_mianfei:
+  - xpath
+  - /html/body/div[4]/div[3]/div[4]/h2/p/a[1]
+# 定校专业课
+shipin_dingxiao:
+  - xpath
+  - /html/body/div[4]/div[3]/div[4]/h2/p/a[2]
+
+#考研政治
+shipin_zhengzhi:
+  - xpath
+  - /html/body/div[4]/div[3]/div[4]/h2/p/a[3]
+
+# 考研英语
+shipin_yingyu:
+  - xpath
+  - /html/body/div[4]/div[3]/div[4]/h2/p/a[4]
+# 考研数学
+shipin_shuxue:
+  - xpath
+  - /html/body/div[4]/div[3]/div[4]/h2/p/a[5]
+# 统考.专项专业课
+shipin_tongkao:
+  - xpath
+  - /html/body/div[4]/div[3]/div[4]/h2/p/a[6]
+# 进入视频课
+shipin_go_in:
+  - xpath
+  - //*[@id="lv"]/dl[1]/dd[1]/a
+# 视频课,立即观看按钮 (多个)
+shipin_go_look:
+  - id
+  - sp2
+
+# 视频播放按钮
+shipin_pay_but:
+  - id
+  - replaybtn
+# ------------------------------------------资料中心
+# 资料中心入口
+information_run:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[2]/a[2]
+
+# 统考专业课经济类
+tongkao_information:
+  - xpath
+  - /html/body/div[5]/div[3]/div/div[1]/div[2]/div[2]/a/div/p
+
+# 资料
+information:
+  - xpath
+  - //*[@id="type57"]/dl[2]/dd[1]/a
+
+# 订单页提交按钮
+dingdan_but:
+  - xpath
+  - /html/body/div[2]/div[2]/div[3]/ul/li[3]/a
+
+# 非统考地区选择 吉林
+feitongkao_sheng:
+  - xpath
+  - /html/body/div[5]/div[3]/div/div[2]/div[3]/div/ul/li[2]
+
+# 非统考院校
+feitongkao_yanxiao:
+  - xpath
+  - /html/body/div[5]/div[3]/div/div[2]/div[3]/div/ul/li[8]/ul/li[2]/span[1]
+
+# 专业查询输入框
+feitongkao_input:
+  - xpath
+  - //*[@id="projectName"]
+
+# 查询按钮
+feitongkao_but:
+  - xpath
+  - /html/body/div[5]/div[3]/div/div[2]/div[3]/div/ul/li[8]/ul/li[6]/ul/li[1]/input[2]
+
+# 专业链接  第一位
+feitongkao_zhuanye:
+  - xpath
+  - //*[@id="proName105"]/li[2]/span[1]
+
+# 金融学综合
+feitongkao_in:
+  - xpath
+  - //*[@id="proName105"]/li[3]/ul/li/a
+
+# 真题
+feitongkao_zhenti:
+  - xpath
+  - //*[@id="type57"]/dl[1]/dd[1]/a
+
+# 综合资讯入口
+zonghezixun:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[4]/a[2]
+
+# 招生简章
+zhaoshengjianzhang:
+  - link text
+  - 招生简章
+
+# 第一条信息
+zixun_one:
+  - xpath
+  - //*[@id="t1"]/tbody/tr[1]/td[2]/a
+
+# 文章正文 断言用
+wenzhangzhengwen:
+  - xpath
+  - /html/body/div[5]/div[2]/div[1]/p/span
+
+# 线下解题训练记录 入口
+xianxiajieti:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[5]/a[2]
+
+# 数学一
+xianxia_shuxue:
+  - xpath
+  - /html/body/div[3]/div[2]/div[1]/ul/li[2]/a
+
+# 进入
+xianxia_run_in:
+  - xpath
+  - /html/body/div[3]/div[2]/div[3]/ul/li[1]/a/p
+
+# 返回
+xianxia_fanhui:
+  - xpath
+  - /html/body/div[3]/div[1]/div[1]/div/a[2]/img
+
+# 辅导矩阵入口
+fudao_juzhen:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[8]/a[2]
+
+
+# 辅导专区政治
+fudao_zhuanqu:
+  - xpath
+  - /html/body/div[2]/div[2]/ul[1]/li[1]/span[1]/img
+# 辅导专区 返回
+fudao_fanhui:
+  - xpath
+  - /html/body/div[4]/div[1]/h2/span[2]/a
+# 交流专区 同学
+fudao_jiaoliu:
+  - xpath
+  - /html/body/div[2]/div[2]/ul[2]/li[1]/span[1]/img
+# 交流专区 返回
+fudao_jiaoliu_fanhui:
+  - xpath
+  - /html/body/div[4]/div[1]/div[1]/h2/span[2]/a
+
+# 报考决策入口
+baokaojuece_in:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[9]/a[2]
+
+# 报考地区
+baokao_diqu:
+  - xpath
+  - //*[@id="provinceid"]/option[3]
+# 招研单位
+baokao_danwei:
+  - xpath
+  - //*[@id="collegeid"]/option[4]
+
+# 查询按钮
+baokao_cha_but:
+  - xpath
+  - /html/body/div[2]/div/div/div/div[1]/form/input
+
+# 断言清华大学
+baokao_arr:
+  - xpath
+  - //*[@id="pages_list"]/div[1]/table/tbody/tr[2]/td[2]/a
+
+# 超级书库 入口
+chaoji_books:
+  - xpath
+  - /html/body/div[10]/div[2]/div/div[2]/ul/li[3]/a[2]
+# 数学列表
+shuxue_list:
+  - xpath
+  - /html/body/div[4]/div[3]/div[1]/ul/li[5]/a
+
+# 进入电子书
+book_in:
+  - xpath
+  - //*[@id="kysx"]/div[1]/dl[1]/dd[1]
+# 下一页
+xiayiye:
+  - xpath
+  - //*[@id="next_page_button"]

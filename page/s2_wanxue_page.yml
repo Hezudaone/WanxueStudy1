@@ -1,0 +1,28 @@
+# 进入登录框
+s2_login_run:
+  - xpath
+  - //*[@id="categorylistLogout"]/div[1]/div/ul/li[4]/a
+
+# 用户名框
+s2_username:
+  - id
+  - username
+
+# 密码框
+s2_password:
+  - id
+  - slsLoginPwd
+
+# 登录按钮
+s2_loginBtn:
+  - xpath
+  - //*[@id="loginfrom"]/button
+
+s2_arr1:
+  - xpath
+  - //*[@id="person"]/a
+
+# 选择课程
+s2_choice_class:
+  - xpath
+  - /html/body/div[10]/div[3]/div[2]/div[4]/div[6]/div[5]/dl/dd/a

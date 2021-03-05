@@ -1,0 +1,299 @@
+# 进入登录框
+des_login_run:
+  - xpath
+  - /html/body/div[1]/div/div[2]/a[1]
+
+# 用户名框
+des_username:
+  - id
+  - username
+
+# 密码框
+des_password:
+  - id
+  - slsLoginPwd
+
+# 登录按钮
+des_loginBtn:
+  - xpath
+  - //*[@id="loginfrom"]/div[3]/input[1]
+
+des_arr1:
+  - xpath
+  - /html/body/div[1]/div/div[2]/a[1]
+
+# --------------------------------学习中心
+# 高级协同团队构建
+d_gjxttdgj:
+  - xpath
+  - /html/body/div[15]/div[1]/div[1]/div[1]/div[1]/h2
+
+# 项目学习
+d_xiangmuxuexi:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[2]/a
+# 项目学习监控
+d_xmxx_jiankong:
+  - xpath
+  - //*[@id="contentX"]/div[1]/ul/li[2]/a
+
+d_xmxx_jiankong_arr:
+  - xpath
+  - //*[@id="kc_monitor"]/div/table/tbody/tr/td[2]
+
+# 视频播放按钮
+d_pay_but:
+  - xpath
+  - //*[@id="replaybtn"]
+
+# 进入视频页
+d_xmxx_one:
+  - xpath
+  - //*[@id="contentX"]/div[2]/div/ul/li/a/span
+# 从视频页返回
+d_xmxx_one_fanhui:
+  - xpath
+  - /html/body/div[2]/div/div[1]/a
+
+# 特训任务
+d_texunrenwu:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[3]/a
+d_texunrenwu_arr:
+  - xpath
+  - //*[@id="var_content"]/div[6]/div[2]/div[1]/div[1]/div[2]/ul/li/a/span
+# 指导交流
+d_zhidaojiaoliu:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[4]/a
+# 问题输入框
+d_zdjl_input:
+  - id
+  - discusstitle
+# 发布按钮
+d_zdjl_fabu:
+  - xpath
+  - //*[@id="var_content"]/div[2]/div[1]/div[2]/input
+# 自己的评论
+d_zdjl_pinglun:
+  - xpath
+  - //*[@id="ques-list"]/div[1]/a/div[2]/h3
+# 删除
+d_zdjl_shanchu:
+  - class name
+  - quesDel
+# 删除确认
+d_zdjl_queding:
+  - class name
+  - Button4
+
+
+# 测评
+d_ceping:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[5]/a
+# 通知公告
+d_gonggao:
+  - xpath
+  - /html/body/div[3]/div[1]/ul/li[6]/a
+# 返回首页
+d_xxzx_fanhui:
+  - xpath
+  - /html/body/div[2]/div/a
+# --------------------------------数字经济讲堂
+# 数字经济讲堂入口
+d_szjj_in:
+  - xpath
+  - /html/body/div[8]/div/div[2]/div/a[2]/p
+
+# 进入直播课堂
+d_szjj_go:
+  - xpath
+  - /html/body/div[13]/div/div[2]/div/a
+
+# 课堂号 输入框
+d_szjj_ketangnum:
+  - xpath
+  - //*[@id="meetNum"]
+
+# 立即进入
+d_szjj_lijijinru_but:
+  - xpath
+  - //*[@id="szjjLogin"]
+
+# 断言
+d_szjj_arr:
+  - id
+  - videoResolutionLabel
+
+d_szjj_x:
+  - xpath
+  - /html/body/div[2]/div[1]
+# --------------------------------背景简介
+#背景介绍入口
+d_bjjs_in:
+  - xpath
+  - /html/body/div[8]/div/div[1]/div/a[1]/p
+# 断言 万学教育建立数字经济专业站的优势
+d_bjjs_arr:
+  - xpath
+  - /html/body/div[15]/p
+# --------------------------------产品服务
+# 产品服务入口
+d_cpfw_in:
+  - xpath
+  - /html/body/div[8]/div/div[1]/div/a[2]
+# 5g 个人
+d_cpfw_g_g:
+  - xpath
+  - /html/body/div[11]/div/ul/li[1]/div[2]/div[1]/div/a
+# 5g 企业
+d_cpfw_g_q:
+  - xpath
+  - /html/body/div[11]/div/ul/li[1]/div[2]/div[2]/a
+# 全链 个人
+d_cpfw_q_g:
+  - xpath
+  - /html/body/div[11]/div/ul/li[2]/div[2]/div[1]/div/a
+# 全链 企业
+d_cpfw_q_q:
+  - xpath
+  - /html/body/div[11]/div/ul/li[2]/div[2]/div[2]/a
+# 返回
+d_cpfw_fanhui:
+  - xpath
+  - /html/body/div[12]/div/a
+
+d_cpfw_fanhui2:
+  - xpath
+  - /html/body/div[12]/div[1]/div/a
+
+
+# --------------------------------知识精华
+# 知识精华入口
+d_zsjh_in:
+  - xpath
+  - /html/body/div[8]/div/div[2]/div/a[3]/p
+# 列表
+d_zsjh_list:
+  - xpath
+  - /html/body/div[11]/div[2]/div[1]/ul/li[3]/a
+#第一本书
+d_zsjh_one:
+  - xpath
+  - //*[@id="wlw"]/div[1]/dl[1]/dd[1]
+# 下一页
+d_zsjh_fanye:
+  - xpath
+  - //*[@id="next_page_button"]
+# --------------------------------名企解析
+# 名企解析入口
+d_mqjx_in:
+  - xpath
+  - /html/body/div[8]/div/div[3]/div/a[1]/p
+# 物联网
+d_mqjx_wulianwang:
+  - xpath
+  - /html/body/div[1]/div[11]/div[2]/div/ul/li[3]
+# 搜索框
+d_mqjx_sou:
+  - xpath
+  - //*[@id="cyzx"]
+# 查询按钮
+d_mqjx_cha:
+  - xpath
+  - /html/body/div[1]/div[11]/div[2]/div/div[1]/span/span/a
+# 第一个消息
+d_mqjx_one:
+  - xpath
+  - //*[@id="t1"]/tbody/tr/td[2]/a
+d_mqjx_arr:
+  - xpath
+  - /html/body/div[11]/div[2]/div[1]/p/span
+
+# --------------------------------求职招聘
+# 求职招聘入口
+d_qzzp_in:
+  - xpath
+  - /html/body/div[8]/div/div[3]/div/a[2]
+# 地点
+d_qzzp_didian:
+  - xpath
+  - /html/body/div[12]/ul/li/div[2]/div[1]/ul/li[1]/p
+# 分类
+d_qzzp_fenlei:
+  - xpath
+  - /html/body/div[12]/ul/li/div[2]/div[2]/ul/li[1]
+# 岗位需求
+d_qzzp_xuqiu:
+  - xpath
+  - /html/body/div[12]/ul/li/div[2]/div[3]/ul/li[1]/p
+# 断言 产品研发高级研究助理
+d_qzzp_arr:
+  - xpath
+  - /html/body/div[12]/ul/li/div[4]/div[1]/a[1]/div[1]/span
+# --------------------------------资讯
+# 资讯入口
+d_zx_in:
+  - xpath
+  - /html/body/div[8]/div/div[3]/div/a[3]/p
+d_zx_shengchan:
+  - xpath
+  - /html/body/div[11]/div[2]/div/ul/li[3]
+# 搜索框  宝山
+d_zx_sou:
+  - xpath
+  - //*[@id="cyzs"]
+d_zx_cha_but:
+  - xpath
+  - /html/body/div[11]/div[2]/div/div[1]/span/span/a
+# 第一条新闻
+d_zx_one:
+  - xpath
+  - //*[@id="t18"]/tbody/tr[1]/td[2]/a
+# 断言 文章正文
+d_zx_arr:
+  - xpath
+  - /html/body/div[11]/div[2]/div[1]/p/span
+# --------------------------------行业专家
+# 行业专家入口
+d_hyzj_in:
+  - xpath
+  - /html/body/div[8]/div/div[4]/div/a[1]/p
+d_hyzj_one:
+  - xpath
+  - //*[@id="d_01"]/dd[1]/a
+d_hyzj_fanhui:
+  - xpath
+  - /html/body/div[8]/div/div[1]/a
+# --------------------------------数字经济活动
+# 数字经济活动入口
+d_jjhd_in:
+  - xpath
+  - /html/body/div[8]/div/div[4]/div/a[2]
+d_jjhd_one:
+  - xpath
+  - //*[@id="chuangyehd"]/ul[1]/li[1]/a/img
+
+d_jjhd_arr:
+  - id
+  - d_btn
+# --------------------------------数字经济项目
+# 数字经济项目入口
+d_jjxm_in:
+  - xpath
+  - /html/body/div[8]/div/div[4]/div/a[3]
+d_jjxm_one:
+  - xpath
+  - /html/body/div[6]/div/div[3]/ul/li[1]/a/img
+d_jjxm_defen:
+  - xpath
+  - /html/body/div[6]/div/div[2]/div[1]/ul/li[2]/a
+# --------------------------------职业规划
+# 职业规划入口
+d_zygh_in:
+  - xpath
+  - /html/body/div[8]/div/div[4]/div/a[4]
+d_zygh_arr:
+  - xpath
+  - /html/body/div[1]/div/div/h3/a

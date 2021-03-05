@@ -1,0 +1,36 @@
+jieduan1:
+  - xpath
+  - //*[@id="stageIndex1"]/a
+jieduan2:
+  - xpath
+  - //*[@id="stageIndex2"]/a
+jieduan3:
+  - xpath
+  - //*[@id="stageIndex3"]/a
+jieduan4:
+  - xpath
+  - //*[@id="stageIndex4"]/a
+jieduan5:
+  - xpath
+  - //*[@id="stageIndex5"]/a
+jieduan6:
+  - xpath
+  - //*[@id="stageIndex6"]/a
+jieduan7:
+  - xpath
+  - //*[@id="stageIndex7"]/a
+jieduan8:
+  - xpath
+  - //*[@id="stageIndex8"]/a
+jieduan9:
+  - xpath
+  - //*[@id="stageIndex9"]/a
+jieduan10:
+  - xpath
+  - //*[@id="stageIndex10"]/a
+jieduan11:
+  - xpath
+  - //*[@id="stageIndex11"]/a
+jieduan12:
+  - xpath
+  - //*[@id="stageIndex12"]/a
