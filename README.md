@@ -1,7 +1,7 @@
 # WanxueStudy1
  
 文件组成:
-base       浏览器基类
+base       浏览器基类/n
 case       脚本
 common     脚本共用类
 drivers    存放驱动类   chrome 浏览器版本号 88
