@@ -37,7 +37,7 @@ with open(f'./report/{filename}.html', 'wb') as fp:
     # 测试运行
     runner.run(suit)
 
-
+#1
 # with open('./report.txt', 'w') as fp:
 #     # 运行器初始化
 #     runner = unittest.TextTestRunner(fp, verbosity=2)
